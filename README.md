@@ -1,5 +1,5 @@
 # Disclaimer
-**This Solution is inspired from Data Crawler Implemented by Jason Summer - Snowflake Labs. The only difference is that I have decoupled Streamlit and managed to run it as an external app, This may come handy for snowflake accounts that don't have streamlit enabled.**
+**This Solution is inspired from Data Crawler Implemented by Jason Summer - Snowflake Labs. The difference is that I have decoupled Streamlit and managed to run it as an external app, This may come handy for snowflake accounts that don't have streamlit enabled. I have also added model evaluation using ROUGE scoring for understanding how keen the LLM generated descriptions are, compared to original reference texts.**
 
 Original Source Repository: https://github.com/Snowflake-Labs/sfguide-data-crawler.  
 
