@@ -1,1 +1,1 @@
-CONNECTIONS_FILE = "/Users/csubramanya/Library/Application Support/snowflake/connections.toml"
+CONNECTIONS_FILE = "~/Library/Application Support/snowflake/connections.toml"
