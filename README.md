@@ -1,5 +1,13 @@
 # Disclaimer
-**This Solution is inspired from Data Crawler Implemented by Jason Summer - Snowflake Labs. The difference is that I have decoupled Streamlit and managed to run it as an external app, This may come handy for snowflake accounts that don't have streamlit enabled. I have also added model evaluation using ROUGE scoring for understanding how keen the LLM generated descriptions are, compared to original reference texts.**
+**This Solution is inspired from Data Crawler Implemented by Jason Summer - Snowflake Labs. The difference is that I have decoupled Streamlit and managed to run it as an external app, This may come handy for snowflake accounts that don't have streamlit enabled. I have also added model evaluation using ROUGE scoring for understanding how keen the LLM generated descriptions are, compared to original reference texts.**  
+
+# Local Setup of Streamlit and run the project:  
++ Create `connections.toml` file at this location `~/Library/Application Support/snowflake/` for macOS users, Install Snowflake CLI before this if not already done. Documentation for that at `https://docs.snowflake.com/en/developer-guide/snowflake-cli-v2/installation/installation`.
++ Add connection credentials according to the steps at `https://docs.snowflake.com/en/developer-guide/python-connector/python-connector-connect#connecting-using-the-connections-toml-file`.
++ Provide that connection name from previous step in [this file](utils/session.py).
++ Create a virtual environment and install streamlit and other dependencies.
++ Run export PYTHONPATH=``pwd`` at project base directory.  
++ Run the project with `streamlit run manage.py`.  
 
 Original Source Repository: https://github.com/Snowflake-Labs/sfguide-data-crawler.  
 
